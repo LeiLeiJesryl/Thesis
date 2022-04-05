@@ -1,0 +1,93 @@
+*{
+ padding: 0;
+ margin: 0;
+ font-family: 'Encode Sans Semi Condensed', sans-serif;
+ font-weight: bold;
+  box-sizing: border-box;
+}
+
+body{
+height: 120vh;
+}
+
+
+header{
+  background-color: teal;
+  height: 4cm;
+}
+
+header img{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: none;
+  margin-left: 20px;
+  float: left;
+  margin-top: 10px;
+ 
+}
+
+header h1{
+  padding-top: 20px;
+  padding-left: 150px;
+  color: white;
+}
+
+
+
+.form h2{
+  text-align: center;
+  padding: 50px;
+}
+
+.container{
+  border: 2px solid black;
+  height: 50%;
+  margin-left: 25%;
+  margin-right: 25% ;
+  padding: 50px;
+}
+
+label[for=fullname]{
+  font-size: 20px;}
+
+input[type=text]{
+  font-size: 16px;
+  margin-right: 1cm;
+  border-radius: 5px;
+  border: 2px solid lightgray;
+  padding: 10px;}
+
+label[for=contact]{
+  font-size: 20px;
+  text-align: center;
+  margin-top: 5px;
+  
+}
+
+
+input[type=tel]{
+  font-size: 16px;
+  margin-right: 45px;
+  border-radius: 5px;
+  border: 2px solid lightgray;
+  padding: 10px;
+}
+
+
+
+label[for="descrip"]{
+width: 2cm;
+}
+
+button{
+ margin-top: 10px;
+  padding: 5px;
+  border-radius:5px ;
+  border: 2px solid gray;
+  cursor: pointer;
+
+}
+
+button:hover{color: skyblue;}
+button:active{color:black}

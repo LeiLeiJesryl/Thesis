@@ -1,0 +1,132 @@
+*{
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+  font-family: 'Encode Sans Semi Condensed', sans-serif;
+  font-weight: bold;
+}
+
+header{height: 4cm;
+background-color: teal;}
+
+header img{height: 100px;
+width: 100px;
+border-radius: 50%;
+margin-left: 30px;
+margin-top: 10px;
+float: left;
+border: none;}
+
+header h1{
+  padding-left: 150px;
+  padding-top: 20px;
+  color: white;}
+
+
+nav{
+    float: right;
+    margin-right: 2cm;
+  }
+
+nav ul li{display: inline;
+padding: 20px;
+}
+
+nav ul li a{text-decoration: none;
+list-style: none;
+color: white;
+}
+
+nav ul li a:hover{color: skyblue;}
+
+
+.signup-box{border: 1px solid darkgray;
+margin-left: 30%;
+margin-right: 30%;
+padding: 50px;
+margin-top: 2cm;
+margin-bottom: 3cm;
+border-radius: 5px;
+box-shadow: 10px 10px 86px 30px rgba(191,191,191,0.75);
+-webkit-box-shadow: 10px 10px 86px 30px rgba(191,191,191,0.75);
+-moz-box-shadow: 10px 10px 86px 30px rgba(191,191,191,0.75);}
+
+input[type=email]{
+  padding: 5px;
+  margin: 20px;
+  margin-left: 3.8cm;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  text-align: center;
+}
+
+
+input[type=password]{padding: 5px;
+  margin: 20px;
+  margin-left: 3.8cm;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  text-align: center;}
+
+
+button{padding: 5px;
+  margin: 20px;
+  margin-left: 4.8cm;
+  border-radius: 5px;
+  border: 1px;
+  font-size: 20px;
+cursor: pointer;}
+
+  button:hover{color: green;}
+  button:active{color: darkgreen;}
+
+  .regis >a{
+    margin-left: 2cm;
+  }
+  
+
+
+
+.myfooter{
+  display: inline-block;
+  margin-left: 1cm;
+  padding: 5px;
+  
+
+}
+
+li{
+  list-style: none;
+  padding: auto;
+}
+h4{
+  display: table-cell;
+  margin: 10px;
+margin-bottom: 10px;
+font-family: Verdana;
+
+}
+
+.footer{
+  
+  background-color: lightgray;
+ 
+  width: 100%;
+}
+
+.footerlink{
+text-decoration: none;
+text-decoration-line: underline;
+color: black;
+
+}
+
+.footerlink:hover{background-color:darkgray;}
+.footerlink:active{background-color:darkgray;}
+
+#copy{
+  text-align: center;
+  opacity: 0.5;
+}

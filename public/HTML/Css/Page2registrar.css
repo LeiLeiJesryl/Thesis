@@ -1,0 +1,84 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Encode Sans Semi Condensed', sans-serif;
+  font-weight: bold;
+}
+
+header{
+  height: 4cm;
+  background-color: teal;
+}
+
+header img{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: none;
+  float: left;
+  margin-left: 40px ;
+  margin-top: 10px;
+}
+
+
+
+header h1{
+  padding-top: 20px;
+  padding-left: 150px;
+  color: white;
+}
+
+
+
+.form-container{border: 1px solid darkgrey ;
+ margin-left: 30rem;
+ margin-right: 30rem;
+ margin-top: 2cm;
+ border-radius: 5px;
+ height: 10cm;
+  padding: 0.5rem;
+  box-shadow: 28px 10px 119px 35px rgba(196,185,185,0.51);
+-webkit-box-shadow: 28px 10px 119px 35px rgba(196,185,185,0.51);
+-moz-box-shadow: 28px 10px 119px 35px rgba(196,185,185,0.51);
+}
+
+
+.form-container h2{
+  margin-left: 2cm;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+input[type=text]{
+  margin-left: 2.8cm;
+  padding: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+
+input[type=email]{margin-left: 2.8cm;
+  padding: 10px;
+  margin-bottom: 20px;
+  text-align: center;}
+
+
+input[type=password]{margin-left: 2.8cm;
+  padding: 10px;
+  margin-bottom: 20px;
+  text-align: center;}
+
+
+
+  button{
+margin-left: 3.8cm;
+padding: 10px;
+border-radius: 5px;
+border: 1px;
+font-size: 20px;
+cursor: pointer;
+  }
+
+  button:hover{color: green;}
+button:active{color: darkgreen;}
